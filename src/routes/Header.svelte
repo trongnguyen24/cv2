@@ -1,5 +1,4 @@
 <script>
-	import { page } from '$app/stores';
 </script>
 
 <header class="max-w-3xl mx-auto flex justify-between py-12 px-6">
