@@ -35,7 +35,7 @@
 		Based in Ho Chi Minh city, i'm developer and UI/UX designer.<br />
 		Hey are looking for designer to build your brand and grow your business? let's shake hands with me.
 	</p>
-	<div class="grid grid-cols-2 gap-4 mt-6">
+	<div class="grid md:grid-cols-2 gap-4 mt-6">
 		<div class="gsapbox">
 			<title class="block text-sky-500 font-semibold text-sm">PHONE</title>+84 0379 573 674
 		</div>
