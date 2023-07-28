@@ -26,23 +26,21 @@
 </svelte:head>
 
 <section class="text-slate-600">
-	<h2 class="font-bold text-3xl text-slate-800 font-serif gsapbox2">Experience</h2>
+	<h2 class="font-serif text-3xl font-bold text-slate-800 gsapbox2">Experience</h2>
 	<div class="grid grid-cols-1 gap-4 mt-6 gsapbox2">
 		<div>
-			<span class="text-sm text-slate-500 font-semibold font-mono">2022-2023 </span>
-			<title class="block text-slate-800 font-bold">UI/UX Designer</title>
+			<span class="font-mono text-sm font-semibold text-slate-500">2022-2023 </span>
+			<title class="block font-bold text-slate-800">UI/UX Designer</title>
 			<p class="mt-2">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cupiditate voluptates,
-				provident eligendi aperiam sit corporis nihil? Nostrum neque iste omnis. Possimus suscipit
-				at animi obcaecati fugiat qui nisi doloremque?
+				The majority of the work is creating website marketing campaigns, 3D mockup, and small CRUD apps using Sveltekit, a JavaScript framework I enjoy.
 			</p>
 		</div>
 	</div>
 
 	<div class="grid grid-cols-1 gap-4 mt-6 gsapbox2">
 		<div>
-			<span class="text-sm text-slate-500 font-semibold font-mono">2021-2022 </span>
-			<title class="block text-slate-800 font-bold">Designer & Developer</title>
+			<span class="font-mono text-sm font-semibold text-slate-500">2021-2022 </span>
+			<title class="block font-bold text-slate-800">Designer & Developer</title>
 			<p class="mt-2">
 				I provided solutions and created the style orientation for a start-up brand, as well as
 				producing social media products, and building a website based on WordPress and Haravan.
@@ -51,8 +49,8 @@
 	</div>
 	<div class="grid grid-cols-1 gap-4 mt-6 gsapbox2">
 		<div>
-			<span class="text-sm text-slate-500 font-semibold font-mono">2013-2021 </span>
-			<title class="block text-slate-800 font-bold">Graphic Designer</title>
+			<span class="font-mono text-sm font-semibold text-slate-500">2013-2021 </span>
+			<title class="block font-bold text-slate-800">Graphic Designer</title>
 			<p class="mt-2">
 				I spent a long period of time working at TPF Vietnam in a variety of positions, including
 				graphic designer, high-end retoucher, 3D visualizer, and web designer. I also aid the
@@ -63,8 +61,8 @@
 
 	<div class="grid grid-cols-1 gap-4 mt-6 gsapbox2">
 		<div>
-			<span class="text-sm text-slate-500 font-semibold font-mono">2012-2013 </span>
-			<title class="block text-slate-800 font-bold">UI/UX - SGVN </title>
+			<span class="font-mono text-sm font-semibold text-slate-500">2012-2013 </span>
+			<title class="block font-bold text-slate-800">UI/UX - SGVN </title>
 			<p class="mt-2">
 				Since the concept of UI/UX was rather unfamiliar in Vietnam at that time, I am beginning to
 				build websites and apps using Photoshop, which takes ten times longer to complete than the
@@ -75,8 +73,8 @@
 
 	<div class="grid grid-cols-1 gap-4 mt-6 gsapbox2">
 		<div>
-			<span class="text-sm text-slate-500 font-semibold font-mono">2012</span>
-			<title class="block text-slate-800 font-bold">Graphic Designer - Golden ACE Viet Nam</title>
+			<span class="font-mono text-sm font-semibold text-slate-500">2012</span>
+			<title class="block font-bold text-slate-800">Graphic Designer - Golden ACE Viet Nam</title>
 			<p class="mt-2">
 				I have acquired a wealth of knowledge regarding design methods that utilize CNC machining.
 				Additionally, I gained valuable experience in communication design for social media
