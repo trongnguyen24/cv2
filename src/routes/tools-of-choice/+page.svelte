@@ -9,10 +9,10 @@
 			y: 0,
 			opacity: 1,
 			scale: 1,
-			duration: 0.5,
+			duration: 0.35,
 			stagger: {
 				// wrap advanced options in an object
-				each: 0.2,
+				each: 0.16,
 				from: 'start',
 				grid: 'auto'
 			}
@@ -29,14 +29,14 @@
 </svelte:head>
 
 <section class="text-slate-600">
-	<h2 class="font-bold text-3xl text-slate-800 font-serif gsapbox3">Tools of choice</h2>
+	<h2 class="font-serif text-3xl font-bold text-slate-800 gsapbox3">Tools of choice</h2>
 	<div class="flex w-full gap-4 mt-6">
 		<div class="w-full">
-			<h3 class="block text-slate-800 font-bold gsapbox3">UI/UX Design Tools</h3>
-			<ul class="gap-4 gap-y-6 mt-4 grid grid-cols-2 lg:grid-cols-3">
-				<li class="flex gap-2 items-center gsapbox3">
+			<h3 class="block font-bold text-slate-800 gsapbox3">UI/UX Design Tools</h3>
+			<ul class="grid grid-cols-2 gap-4 mt-4 gap-y-6 lg:grid-cols-3">
+				<li class="flex items-center gap-2 gsapbox3">
 					<div
-						class="px-1 py-1 bg-white backdrop-blur bg-opacity-50 border border-white rounded-lg shadow-lg"
+						class="px-1 py-1 bg-white bg-opacity-50 border border-white rounded-lg shadow-lg backdrop-blur"
 					>
 						<svg
 							width="24"
@@ -63,9 +63,9 @@
 					</div>
 					Figma
 				</li>
-				<li class="flex gap-2 items-center gsapbox3">
+				<li class="flex items-center gap-2 gsapbox3">
 					<div
-						class="px-1 py-1 bg-white backdrop-blur bg-opacity-50 border border-white rounded-lg shadow-lg"
+						class="px-1 py-1 bg-white bg-opacity-50 border border-white rounded-lg shadow-lg backdrop-blur"
 					>
 						<svg
 							width="24"
@@ -82,9 +82,9 @@
 					</div>
 					Photoshop
 				</li>
-				<li class="flex gap-2 items-center gsapbox3">
+				<li class="flex items-center gap-2 gsapbox3">
 					<div
-						class="px-1 py-1 bg-white backdrop-blur bg-opacity-50 border border-white rounded-lg shadow-lg"
+						class="px-1 py-1 bg-white bg-opacity-50 border border-white rounded-lg shadow-lg backdrop-blur"
 					>
 						<svg
 							width="24"
@@ -101,9 +101,9 @@
 					</div>
 					Illustrator
 				</li>
-				<li class="flex gap-2 items-center gsapbox3">
+				<li class="flex items-center gap-2 gsapbox3">
 					<div
-						class="px-1 py-1 bg-white backdrop-blur bg-opacity-50 border border-white rounded-lg shadow-lg"
+						class="px-1 py-1 bg-white bg-opacity-50 border border-white rounded-lg shadow-lg backdrop-blur"
 					>
 						<svg
 							width="24"
@@ -128,9 +128,9 @@
 					</div>
 					Blender
 				</li>
-				<li class="flex gap-2 items-center gsapbox3">
+				<li class="flex items-center gap-2 gsapbox3">
 					<div
-						class="px-1 py-1 bg-white backdrop-blur bg-opacity-50 border border-white rounded-lg shadow-lg"
+						class="px-1 py-1 bg-white bg-opacity-50 border border-white rounded-lg shadow-lg backdrop-blur"
 					>
 						<svg
 							width="24"
@@ -167,9 +167,9 @@
 					</div>
 					Keyshot
 				</li>
-				<li class="flex gap-2 items-center gsapbox3">
+				<li class="flex items-center gap-2 gsapbox3">
 					<div
-						class="px-1 py-1 bg-white backdrop-blur bg-opacity-50 border border-white rounded-lg shadow-lg"
+						class="px-1 py-1 bg-white bg-opacity-50 border border-white rounded-lg shadow-lg backdrop-blur"
 					>
 						<svg
 							width="24"
@@ -192,11 +192,11 @@
 
 	<div class="flex w-full gap-4 mt-8">
 		<div class="w-full">
-			<h3 class="block text-slate-800 font-bold gsapbox3">Development Tools</h3>
-			<ul class="gap-4 gap-y-6 mt-4 grid grid-cols-2 lg:grid-cols-3">
-				<li class="flex gap-2 items-center gsapbox3">
+			<h3 class="block font-bold text-slate-800 gsapbox3">Development Tools</h3>
+			<ul class="grid grid-cols-2 gap-4 mt-4 gap-y-6 lg:grid-cols-3">
+				<li class="flex items-center gap-2 gsapbox3">
 					<div
-						class="px-1 py-1 bg-white backdrop-blur bg-opacity-50 border border-white rounded-lg shadow-lg"
+						class="px-1 py-1 bg-white bg-opacity-50 border border-white rounded-lg shadow-lg backdrop-blur"
 					>
 						<svg
 							width="24"
@@ -213,9 +213,9 @@
 					</div>
 					Javascript
 				</li>
-				<li class="flex gap-2 items-center gsapbox3">
+				<li class="flex items-center gap-2 gsapbox3">
 					<div
-						class="px-1 py-1 bg-white backdrop-blur bg-opacity-50 border border-white rounded-lg shadow-lg"
+						class="px-1 py-1 bg-white bg-opacity-50 border border-white rounded-lg shadow-lg backdrop-blur"
 					>
 						<svg
 							width="24"
@@ -236,9 +236,9 @@
 					</div>
 					HTML
 				</li>
-				<li class="flex gap-2 items-center gsapbox3">
+				<li class="flex items-center gap-2 gsapbox3">
 					<div
-						class="px-1 py-1 bg-white backdrop-blur bg-opacity-50 border border-white rounded-lg shadow-lg"
+						class="px-1 py-1 bg-white bg-opacity-50 border border-white rounded-lg shadow-lg backdrop-blur"
 					>
 						<svg
 							width="24"
@@ -259,9 +259,9 @@
 					</div>
 					CSS
 				</li>
-				<li class="flex gap-2 items-center gsapbox3">
+				<li class="flex items-center gap-2 gsapbox3">
 					<div
-						class="px-1 py-1 bg-white backdrop-blur bg-opacity-50 border border-white rounded-lg shadow-lg"
+						class="px-1 py-1 bg-white bg-opacity-50 border border-white rounded-lg shadow-lg backdrop-blur"
 					>
 						<svg
 							width="24"
@@ -295,9 +295,9 @@
 					</div>
 					Sveltekit
 				</li>
-				<li class="flex gap-2 items-center gsapbox3">
+				<li class="flex items-center gap-2 gsapbox3">
 					<div
-						class="px-1 py-1 bg-white backdrop-blur bg-opacity-50 border border-white rounded-lg shadow-lg"
+						class="px-1 py-1 bg-white bg-opacity-50 border border-white rounded-lg shadow-lg backdrop-blur"
 					>
 						<svg
 							width="24"
@@ -329,9 +329,9 @@
 					</div>
 					TailwindCSS
 				</li>
-				<li class="flex gap-2 items-center gsapbox3">
+				<li class="flex items-center gap-2 gsapbox3">
 					<div
-						class="px-1 py-1 bg-white backdrop-blur bg-opacity-50 border border-white rounded-lg shadow-lg"
+						class="px-1 py-1 bg-white bg-opacity-50 border border-white rounded-lg shadow-lg backdrop-blur"
 					>
 						<svg
 							width="24"
