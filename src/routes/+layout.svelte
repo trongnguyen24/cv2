@@ -14,7 +14,7 @@
 		{ x: 50, y: 50 },
 		{
 			stiffness: 0.1,
-			damping: 0.25
+			damping: 0.2
 		}
 	);
 	const onMouseMove = (event: { x: any; y: any }) => {
@@ -73,19 +73,32 @@
 />
 
 <div id="smooth-wrapper">
-	<div class="app relative z-30">
+	<div class="relative z-30 app">
 		<div id="smooth-content">
 			<Header />
 
-			<main class="max-w-3xl mx-auto px-6 py-12 flex flex-col gap-6 md:flex-row">
+			<main class="flex flex-col max-w-3xl gap-6 px-6 py-12 mx-auto md:flex-row">
 				<div class="w-40 shrink-0">
 					<ul class="flex flex-col gap-2">
 						{#each menu as menu}
 							<li
 								aria-current={$page.url.pathname === menu.link ? 'true' : undefined}
-								class="font-semibold text-slate-400 hover:text-slate-600 transition-colors duration-300 aria-current:text-slate-900"
+								class="relative h-6 overflow-hidden transition-colors duration-400 text-slate-600 hover:text-slate-600"
 							>
-								<a data-sveltekit-noscroll class="block" href={menu.link}>{menu.title}</a>
+								<a
+									aria-current={$page.url.pathname === menu.link ? 'true' : undefined}
+									data-sveltekit-noscroll
+									class="absolute top-0 left-0 block transition-all duration-700 aria-current:-translate-y-8"
+									href={menu.link}
+									>{menu.title}
+								</a>
+								<a
+									aria-current={$page.url.pathname === menu.link ? 'true' : undefined}
+									data-sveltekit-noscroll
+									class="absolute top-0 left-0 block font-bold transition-all duration-700 translate-y-8 aria-current:-translate-y-0 text-slate-900"
+									href={menu.link}
+									>{menu.title}
+								</a>
 							</li>
 						{/each}
 					</ul>
@@ -98,8 +111,8 @@
 			</main>
 		</div>
 	</div>
-	<div class="fixed top-0 w-screen h-screen overflow-hidden flex justify-between">
-		<div id="noiseblob" class="w-full h-full absolute z-20" />
+	<div class="fixed top-0 flex justify-between w-screen h-screen overflow-hidden">
+		<div id="noiseblob" class="absolute z-20 w-full h-full" />
 		<Blob2 />
 		<Blob />
 	</div>

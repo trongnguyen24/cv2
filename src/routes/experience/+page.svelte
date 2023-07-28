@@ -32,7 +32,8 @@
 			<span class="font-mono text-sm font-semibold text-slate-500">2022-2023 </span>
 			<title class="block font-bold text-slate-800">UI/UX Designer</title>
 			<p class="mt-2">
-				The majority of the work is creating website marketing campaigns, 3D mockup, and small CRUD apps using Sveltekit, a JavaScript framework I enjoy.
+				The majority of the work is creating website marketing campaigns, 3D mockup, and small CRUD
+				apps using Sveltekit, a JavaScript framework I enjoy.
 			</p>
 		</div>
 	</div>

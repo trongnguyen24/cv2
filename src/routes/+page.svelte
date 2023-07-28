@@ -25,7 +25,7 @@
 	<meta name="Nguyen Le's Resume" content="Nguyen Le's Resume" />
 </svelte:head>
 
-<section class="text-slate-500">
+<section class="text-slate-700">
 	<h2 class="font-bold text-3xl text-slate-800 font-serif gsapbox">
 		Hi!<br /> I'm <span class=" text-sky-500">Nguyen </span> <br /><span
 			class=" font-normal text-xl">User Interface Designer</span
