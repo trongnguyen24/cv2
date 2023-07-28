@@ -27,7 +27,7 @@
 
 <section class="text-slate-700">
 	<h2 class="font-bold text-3xl text-slate-800 font-serif gsapbox">
-		Hi!<br /> I'm <span class=" text-sky-500">Nguyen </span> <br /><span
+		Hi!<br /> I'm <span class=" text-blue-500">Nguyen </span> <br /><span
 			class=" font-normal text-xl">User Interface Designer</span
 		>
 	</h2>
@@ -37,10 +37,10 @@
 	</p>
 	<div class="grid md:grid-cols-2 gap-4 mt-6">
 		<div class="gsapbox">
-			<title class="block text-sky-500 font-semibold text-sm">PHONE</title>+84 0379 573 674
+			<title class="block text-blue-500 font-semibold text-sm">PHONE</title>+84 0379 573 674
 		</div>
 		<div class="gsapbox">
-			<title class="block text-sky-500 font-semibold text-sm">EMAIL</title>trongnguyen24@gmail.com
+			<title class="block text-blue-500 font-semibold text-sm">EMAIL</title>trongnguyen24@gmail.com
 		</div>
 	</div>
 </section>
