@@ -16,6 +16,24 @@
 				grid: 'auto'
 			}
 		});
+
+		const carousels = document.querySelector('.carousels1');
+
+		const spanTag = carousels.querySelector('.job');
+
+		const spanWidth = spanTag.clientWidth;
+
+		for (let i = 0; i < 5; i++) {
+			carousels.appendChild(spanTag.cloneNode(true));
+		}
+
+		const movementTimeline = gsap.timeline({
+			repeat: -1
+		});
+
+		movementTimeline
+			.set(carousels, { x: 0 })
+			.to(carousels, { x: spanWidth * -1, duration: 9, ease: 'linear' });
 	});
 </script>
 
@@ -26,9 +44,17 @@
 
 <section class="text-slate-700">
 	<h2 class="font-bold text-3xl text-slate-800 font-serif gsapbox">
-		Hi!<br /> I'm <span class=" text-blue-500">Nguyen </span> <br /><span
-			class=" font-normal text-xl">User Interface Designer</span
+		Hi!<br /> I'm <span class=" text-blue-500">Nguyen </span> <br />
+		<h3
+			class="font-serif text-base max-w-[11rem] bg-blue-500 mt-1 border rounded-full border-blue-500 overflow-hidden font-bold text-slate-800"
 		>
+			<div class="carousels1 flex">
+				<span class="flex items-center font-mono text-white gap-3 shrink-0 job"
+					><span>UI/UX Designer</span> · <span>3D Visual</span> · <span>Developer</span>
+					<span>·</span><span />
+				</span>
+			</div>
+		</h3>
 	</h2>
 	<p class=" mt-6 gsapbox">
 		Based in Ho Chi Minh city, i'm developer and UI/UX designer.<br />
