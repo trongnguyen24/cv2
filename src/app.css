@@ -38,7 +38,10 @@
 		scrollbar-color: rgba(169, 180, 188, 0.11) transparent;
 		scrollbar-width: auto;
 	}
-	.gsapbox {
+	.gsapbox,
+	.gsapbox1,
+	.gsapbox2,
+	.gsapbox3 {
 		opacity: 0;
 	}
 }

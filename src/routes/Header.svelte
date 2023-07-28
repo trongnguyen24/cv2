@@ -26,7 +26,7 @@
 			Download CV
 		</a>
 		<span
-			class="absolute border border-slate-700 w-full h-full top-0 left-0 bg-slate-700 transition-all -translate-y-10 group-hover:rounded-none group-hover:translate-y-0 duration-700 rounded-bl-[50%] rounded-br-[50%]"
+			class="absolute border border-slate-700 w-[102%] h-full top-0 left-0 bg-slate-700 transition-all -translate-y-10 group-hover:rounded-none group-hover:translate-y-0 duration-700 rounded-bl-[50%] rounded-br-[50%]"
 		/>
 		<a
 			href="/"

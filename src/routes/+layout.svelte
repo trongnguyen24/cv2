@@ -10,7 +10,7 @@
 	import { spring } from 'svelte/motion';
 
 	let coords = spring(
-		{ x: 50, y: 50 },
+		{ x: -10, y: -10 },
 		{
 			stiffness: 0.1,
 			damping: 0.2
@@ -20,7 +20,7 @@
 		$coords = { x: event.x, y: event.y };
 	};
 
-	let size = spring(10);
+	let size = spring(4);
 
 	let menu = [
 		{
@@ -32,8 +32,8 @@
 			link: '/experience'
 		},
 		{
-			title: 'Tools of choice',
-			link: '/tools-of-choice'
+			title: 'Skills',
+			link: '/skills'
 		},
 		{
 			title: 'Education',
@@ -52,8 +52,8 @@
 
 <svelte:window
 	on:mousemove={onMouseMove}
-	on:mousedown={() => size.set(4)}
-	on:mouseup={() => size.set(10)}
+	on:mousedown={() => size.set(20)}
+	on:mouseup={() => size.set(4)}
 />
 
 <div
@@ -68,13 +68,13 @@
 <div class="relative z-30 app">
 	<Header />
 
-	<main class="flex flex-col max-w-3xl gap-6 px-6 py-12 mx-auto md:flex-row">
-		<div class="w-40 shrink-0">
-			<ul class="flex flex-col gap-2">
+	<main class="flex flex-col max-w-3xl gap-6 px-6 pt-0 pb-12 mx-auto sm:flex-row">
+		<div class=" w-full sm:w-40 shrink-0">
+			<ul class="grid flex-wrap grid-cols-2 sm:grid-cols-1 gap-2">
 				{#each menu as menu}
 					<li
 						aria-current={$page.url.pathname === menu.link ? 'true' : undefined}
-						class="relative h-6 overflow-hidden transition-colors duration-400 text-slate-600 hover:text-slate-600"
+						class="relative w-full h-6 overflow-hidden transition-colors duration-400 text-slate-600 hover:text-slate-600"
 					>
 						<a
 							aria-current={$page.url.pathname === menu.link ? 'true' : undefined}
@@ -93,7 +93,7 @@
 				{/each}
 			</ul>
 		</div>
-		<div class="flex-1 w-full">
+		<div class="w-full">
 			<PageTransition pathname={data.pathname}>
 				<slot />
 			</PageTransition>
