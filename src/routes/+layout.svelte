@@ -5,7 +5,6 @@
 	import Blob2 from '$lib/blob2.svelte';
 	import PageTransition from '$lib/PageTransition.svelte';
 	import type { LayoutServerData } from './$types';
-	import { ScrollSmoother } from '$lib/gsap.js';
 	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 	import { spring } from 'svelte/motion';
@@ -46,13 +45,7 @@
 		}
 	];
 
-	onMount(() => {
-		ScrollSmoother.create({
-			smooth: 1.2, // how long (in seconds) it takes to "catch up" to the native scroll position
-			effects: true, // looks for data-speed and data-lag attributes on elements
-			smoothTouch: 0.1 // much shorter smoothing time on touch devices (default is NO smoothing on touch devices)
-		});
-	});
+	onMount(() => {});
 
 	export let data: LayoutServerData;
 </script>
@@ -72,50 +65,45 @@
 	style:height={`${$size}px`}
 />
 
-<div id="smooth-wrapper">
-	<div class="relative z-30 app">
-		<div id="smooth-content">
-			<Header />
+<div class="relative z-30 app">
+	<Header />
 
-			<main class="flex flex-col max-w-3xl gap-6 px-6 py-12 mx-auto md:flex-row">
-				<div class="w-40 shrink-0">
-					<ul class="flex flex-col gap-2">
-						{#each menu as menu}
-							<li
-								aria-current={$page.url.pathname === menu.link ? 'true' : undefined}
-								class="relative h-6 overflow-hidden transition-colors duration-400 text-slate-600 hover:text-slate-600"
-							>
-								<a
-									aria-current={$page.url.pathname === menu.link ? 'true' : undefined}
-									data-sveltekit-noscroll
-									class="absolute top-0 left-0 block transition-all duration-700 aria-current:-translate-y-8"
-									href={menu.link}
-									>{menu.title}
-								</a>
-								<a
-									aria-current={$page.url.pathname === menu.link ? 'true' : undefined}
-									data-sveltekit-noscroll
-									class="absolute top-0 left-0 block font-bold transition-all duration-700 translate-y-8 aria-current:-translate-y-0 text-slate-900"
-									href={menu.link}
-									>{menu.title}
-								</a>
-							</li>
-						{/each}
-					</ul>
-				</div>
-				<div class="flex-1">
-					<PageTransition pathname={data.pathname}>
-						<slot />
-					</PageTransition>
-				</div>
-			</main>
+	<main class="flex flex-col max-w-3xl gap-6 px-6 py-12 mx-auto md:flex-row">
+		<div class="w-40 shrink-0">
+			<ul class="flex flex-col gap-2">
+				{#each menu as menu}
+					<li
+						aria-current={$page.url.pathname === menu.link ? 'true' : undefined}
+						class="relative h-6 overflow-hidden transition-colors duration-400 text-slate-600 hover:text-slate-600"
+					>
+						<a
+							aria-current={$page.url.pathname === menu.link ? 'true' : undefined}
+							class="absolute top-0 left-0 block transition-all duration-700 aria-current:-translate-y-8"
+							href={menu.link}
+							>{menu.title}
+						</a>
+						<a
+							aria-current={$page.url.pathname === menu.link ? 'true' : undefined}
+							data-sveltekit-noscroll
+							class="absolute top-0 left-0 block font-bold transition-all duration-700 translate-y-8 aria-current:-translate-y-0 text-slate-900"
+							href={menu.link}
+							>{menu.title}
+						</a>
+					</li>
+				{/each}
+			</ul>
 		</div>
-	</div>
-	<div class="fixed top-0 flex justify-between w-screen h-screen overflow-hidden">
-		<div id="noiseblob" class="absolute z-20 w-full h-full" />
-		<Blob2 />
-		<Blob />
-	</div>
+		<div class="flex-1 w-full">
+			<PageTransition pathname={data.pathname}>
+				<slot />
+			</PageTransition>
+		</div>
+	</main>
+</div>
+<div class="fixed top-0 flex justify-between w-screen h-screen overflow-hidden">
+	<div id="noiseblob" class="absolute z-20 w-full h-full" />
+	<Blob2 />
+	<Blob />
 </div>
 
 <style>

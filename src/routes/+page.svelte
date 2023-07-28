@@ -1,6 +1,5 @@
 <script>
-	import { gsap, ScrollTrigger, ScrollSmoother } from '$lib/gsap.js';
-	import PageGsapRefresh from '$lib/PageGsapRefresh.svelte';
+	import { gsap } from '$lib/gsap.js';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
@@ -44,4 +43,3 @@
 		</div>
 	</div>
 </section>
-<PageGsapRefresh />

@@ -1,6 +1,5 @@
 <script>
 	import { ScrollSmoother } from 'gsap/dist/ScrollSmoother';
-	import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 	import { onMount } from 'svelte';
 
 	// onMount(() => {
@@ -16,6 +15,5 @@
 		let smoother = ScrollSmoother.get();
 		smoother.effects().forEach((effect) => effect.kill());
 		smoother.effects('[data-lag], [data-speed]');
-		ScrollTrigger.refresh();
 	});
 </script>

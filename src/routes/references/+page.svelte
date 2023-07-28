@@ -1,5 +1,5 @@
 <script>
-	import { gsap, ScrollTrigger, ScrollSmoother } from '$lib/gsap.js';
+	import { gsap } from '$lib/gsap.js';
 	import PageGsapRefresh from '$lib/PageGsapRefresh.svelte';
 	import { onMount } from 'svelte';
 
