@@ -62,8 +62,9 @@
 			<span class="font-mono text-sm font-semibold text-slate-500">2022-2023 </span>
 			<title class="block font-bold text-slate-800">UI/UX Designer</title>
 			<p class="mt-2">
-				The majority of the work is creating website marketing campaigns, 3D mockup, and small CRUD
-				apps using Sveltekit, a JavaScript framework I enjoy.
+				A significant portion of my work here revolves around crafting website marketing campaigns,
+				developing 3D mockups, and building small CRUD apps using Sveltekit - a JavaScript framework
+				that aligns with my skill set and interests.
 			</p>
 		</div>
 	</div>
@@ -73,8 +74,9 @@
 			<span class="font-mono text-sm font-semibold text-slate-500">2021-2022 </span>
 			<title class="block font-bold text-slate-800">Designer & Developer</title>
 			<p class="mt-2">
-				I provided solutions and created the style orientation for a start-up brand, as well as
-				producing social media products, and building a website based on WordPress and Haravan.
+				I provided effective solutions and defined the style orientation for a startup brand, as
+				well as producing social media products, and building a website based on WordPress and
+				Haravan.
 			</p>
 		</div>
 	</div>
@@ -83,9 +85,9 @@
 			<span class="font-mono text-sm font-semibold text-slate-500">2013-2021 </span>
 			<title class="block font-bold text-slate-800">Graphic Designer</title>
 			<p class="mt-2">
-				I spent a long period of time working at TPF Vietnam in a variety of positions, including
-				graphic designer, high-end retoucher, 3D visualizer, and web designer. I also aid the
-				business in resolving the automation issues.
+				I have a significant tenure at TPF Vietnam, where I held various positions such as graphic
+				designer, high-end retoucher, 3D visualizer, and web designer. I also aided the business in
+				resolving automation issues to enhance efficicency.
 			</p>
 		</div>
 	</div>
@@ -95,9 +97,9 @@
 			<span class="font-mono text-sm font-semibold text-slate-500">2012-2013 </span>
 			<title class="block font-bold text-slate-800">UI/UX - SGVN </title>
 			<p class="mt-2">
-				Since the concept of UI/UX was rather unfamiliar in Vietnam at that time, I am beginning to
-				build websites and apps using Photoshop, which takes ten times longer to complete than the
-				existing Figma. I also broaden my understanding of CSS and HTML.
+				Since the concept of UI/UX was rather unfamiliar in Vietnam at that time, I began to build
+				websites and apps using Photoshop, which took ten times longer to complete compared to the
+				existing Figma. I also broadened my understanding of CSS and HTML.
 			</p>
 		</div>
 	</div>
@@ -107,9 +109,8 @@
 			<span class="font-mono text-sm font-semibold text-slate-500">2012</span>
 			<title class="block font-bold text-slate-800">Graphic Designer - Golden ACE Viet Nam</title>
 			<p class="mt-2">
-				I have acquired a wealth of knowledge regarding design methods that utilize CNC machining.
-				Additionally, I gained valuable experience in communication design for social media
-				platforms.
+				I acquired a wealth of knowledge regarding design methods that utilize CNC machining during.
+				Moreover, I gained invaluable experience in communication design for social media platforms.
 			</p>
 		</div>
 	</div>

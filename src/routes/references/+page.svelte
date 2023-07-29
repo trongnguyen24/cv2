@@ -55,4 +55,26 @@
 			>
 		</div>
 	</h2>
+	<ul class="grid grid-cols-1 gi gap-6 my-6">
+		<li class="gsapbox5 flex flex-col">
+			<title class="block text-slate-500 text-xs">MANAGER · TPF Vietnam</title><span
+				class="font-semibold text-slate-900 mt-1">Mr. Nhan Dong</span
+			>
+
+			<span class="block font-mono text-sm">P: <a href="tel:0908567834">0908 567 834</a></span>
+			<span class="block font-mono text-sm"
+				>M: <a href="mailto:wookofu@gmail.com">wookofu@gmail.com</a></span
+			>
+		</li>
+		<li class="gsapbox5 flex flex-col">
+			<title class="block text-slate-500 text-xs">CO-FOUNDER · Coconut Group</title><span
+				class="font-semibold text-slate-900 mt-1">Mr. Cuong Viet</span
+			>
+
+			<span class="block font-mono text-sm">P: <a href="tel:0989116656">0989 116 656</a></span>
+			<span class="block font-mono text-sm"
+				>M: <a href="mailto:vietcuong308@gmail.com">vietcuong308@gmail.com</a></span
+			>
+		</li>
+	</ul>
 </section>

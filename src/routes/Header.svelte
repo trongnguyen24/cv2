@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<header class="flex justify-between max-w-3xl px-6 py-12 mx-auto">
+<header class="flex justify-between max-w-3xl px-6 py-6 sm:py-12 mx-auto">
 	<h1 class="font-serif text-4xl font-bold">Resume</h1>
 	<div class="h-10 bound rounded-full group relative overflow-hidden border border-slate-700">
 		<a
@@ -54,14 +54,14 @@
 
 <style>
 	.bound:hover {
-		animation: bound 0.7s ease-in-out alternate-reverse;
+		animation: bound 0.6s ease-in-out alternate-reverse;
 	}
 	@keyframes bound {
 		0% {
 			transform: scale(1);
 		}
 		50% {
-			transform: scale(1.05);
+			transform: scale(1.08);
 		}
 		100% {
 			transform: scale(1);

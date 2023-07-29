@@ -50,7 +50,7 @@
 <section class="text-slate-700">
 	<div class="flex flex-row gap-6">
 		<picture
-			class=" w-[6.5rem] rounded-3xl outline-2 outline outline-slate-500 rounded-br-none overflow-hidden gsapbox"
+			class=" w-[6.5rem] rounded-3xl outline-2 outline outline-slate-700 rounded-br-none overflow-hidden gsapbox"
 		>
 			<source srcset={avatar_webp} type="image/webp" />
 			<img src={avatar_jpg} alt="Welcome" />
@@ -69,16 +69,24 @@
 			</div>
 		</h2>
 	</div>
-	<p class=" mt-6 gsapbox">
-		Based in Ho Chi Minh city, i'm developer and UI/UX designer.<br />
-		Hey are looking for designer to build your brand and grow your business? let's shake hands with me.
+	<p class="mt-6 gsapbox">
+		I am a skilled UI/UX designer and FE developer based in Ho Chi Minh City, specializing in
+		creating innovative and high-quality user experiences.
+	</p>
+	<p class="mt-2 gsapbox">
+		If you are seeking a talented designer to elevate your brand and drive business growth, I would
+		be thrilled to join forces with you. Let's connect and work together to achieve your goals.
 	</p>
 	<div class="grid md:grid-cols-2 gap-4 mt-6">
 		<div class="gsapbox">
-			<title class="block text-slate-500 text-xs">PHONE</title>+84 0379 573 674
+			<title class="block text-slate-500 text-xs">PHONE</title><a href="tel:0379573674"
+				>0379 573 674</a
+			>
 		</div>
 		<div class="gsapbox">
-			<title class="block text-slate-500 text-xs">EMAIL</title>trongnguyen24@gmail.com
+			<title class="block text-slate-500 text-xs">EMAIL</title><a
+				href="mailto:trongnguyen24@gmail.com">trongnguyen24@gmail.com</a
+			>
 		</div>
 	</div>
 </section>

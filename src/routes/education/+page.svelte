@@ -75,7 +75,7 @@
 		<div>
 			<span class="font-mono text-sm font-semibold text-slate-500">2010-2012 </span>
 			<title class="block font-bold text-slate-800">FPT Arena Multimedia</title>
-			<p class="mt-2">Graphic Design, Digital Design, Film Making, 3D Visualizer</p>
+			<p class="mt-2">Graphic Design, Digital Design, Film Making, 3D Visualization</p>
 		</div>
 	</div>
 </section>
