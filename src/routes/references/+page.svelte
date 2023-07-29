@@ -1,6 +1,7 @@
 <script>
+	// @ts-nocheck
+
 	import { gsap } from '$lib/gsap.js';
-	import PageGsapRefresh from '$lib/PageGsapRefresh.svelte';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
@@ -17,14 +18,41 @@
 				grid: 'auto'
 			}
 		});
+
+		const carousels = document.querySelector('.carousels5');
+
+		const spanTag = carousels.querySelector('span');
+
+		const spanWidth = spanTag.clientWidth;
+
+		for (let i = 0; i < 5; i++) {
+			carousels.appendChild(spanTag.cloneNode(true));
+		}
+
+		const movementTimeline = gsap.timeline({
+			repeat: -1
+		});
+
+		movementTimeline
+			.set(carousels, { x: 0 })
+			.to(carousels, { x: spanWidth * -1, duration: 5, ease: 'linear' });
 	});
 </script>
 
 <svelte:head>
-	<title>Nguyen Le's Resume - Experience</title>
-	<meta name="Nguyen Le's Resume - Experience" content="Nguyen Le's Resume - Experience" />
+	<title>Nguyen Le's Resume - References</title>
+	<meta name="Nguyen Le's Resume - References" content="Nguyen Le's Resume - References" />
 </svelte:head>
 
 <section class="text-slate-600">
-	<h2 class="font-bold text-3xl text-slate-800 font-serif gsapbox5">References</h2>
+	<h2
+		class="font-serif max-w-[16rem] w-full py-1 border-b border-slate-700 overflow-hidden font-bold text-slate-800 gsapbox5"
+	>
+		<div class="carousels5 flex">
+			<span class="flex items-center px-2 gap-4"
+				><span class="font-sans">·</span>
+				REFERENCES</span
+			>
+		</div>
+	</h2>
 </section>
