@@ -55,7 +55,7 @@
 			>
 		</div>
 	</h2>
-	<ul class="grid grid-cols-1 gi gap-6 my-6">
+	<ul class="grid grid-cols-1 gap-6 my-6">
 		<li class="gsapbox5 flex flex-col">
 			<title class="block text-slate-500 text-xs">MANAGER · TPF Vietnam</title><span
 				class="font-semibold text-slate-900 mt-1">Mr. Nhan Dong</span
