@@ -46,7 +46,7 @@
 	<meta name="Nguyen Le's Resume - Education" content="Nguyen Le's Resume - Education" />
 	<meta property="og:title" content="Nguyen Le's Resume" />
 	<meta property="og:type" content="Resume" />
-	<meta property="og:image" content="{$page.url.host}/og-image.jpg" />
+	<meta property="og:image" content={$page.url.host + '/og-image.jpg'} />
 	<meta property="og:url" content={$page.url.host} />
 	<meta
 		property="og:description"
