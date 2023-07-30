@@ -71,7 +71,7 @@
 			>
 				<div class="carousels1 flex">
 					<span class="flex items-center font-mono text-white gap-3 shrink-0 job"
-						><span>UI/UX Designer</span> · <span>3D Visual</span> · <span>Developer</span>
+						><span>UI/UX Designer</span> · <span>3D Visualizer</span> · <span>Developer</span>
 						<span>·</span><span />
 					</span>
 				</div>
