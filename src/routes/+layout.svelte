@@ -20,7 +20,7 @@
 		$coords = { x: event.x, y: event.y };
 	};
 
-	let size = spring(4);
+	let size = spring(12);
 
 	let menu = [
 		{
@@ -45,15 +45,13 @@
 		}
 	];
 
-	onMount(() => {});
-
 	export let data: LayoutServerData;
 </script>
 
 <svelte:window
 	on:mousemove={onMouseMove}
-	on:mousedown={() => size.set(20)}
-	on:mouseup={() => size.set(4)}
+	on:mousedown={() => size.set(4)}
+	on:mouseup={() => size.set(12)}
 />
 
 <div
@@ -137,7 +135,8 @@
 		width: 10px;
 		height: 10px;
 		z-index: 50;
-		background-color: black;
+		/* background-color: black; */
+		border: 1px solid #000;
 		position: fixed;
 		border-radius: 50%;
 		pointer-events: none;

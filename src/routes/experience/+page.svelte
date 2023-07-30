@@ -60,7 +60,7 @@
 	<div class="grid grid-cols-1 gap-4 mt-6 gsapbox2">
 		<div>
 			<span class="font-mono text-sm font-semibold text-slate-500">2022-2023 </span>
-			<title class="block font-bold text-slate-800">UI/UX Designer</title>
+			<title class="block font-bold text-slate-800">UI/UX Designer - TPF Vietnam</title>
 			<p class="mt-2">
 				A significant portion of my work here revolves around crafting website marketing campaigns,
 				developing 3D mockups, and building small CRUD apps using Sveltekit - a JavaScript framework
@@ -72,7 +72,7 @@
 	<div class="grid grid-cols-1 gap-4 mt-6 gsapbox2">
 		<div>
 			<span class="font-mono text-sm font-semibold text-slate-500">2021-2022 </span>
-			<title class="block font-bold text-slate-800">Designer & Developer</title>
+			<title class="block font-bold text-slate-800">Designer & Developer - Coconut Group</title>
 			<p class="mt-2">
 				I provided effective solutions and defined the style orientation for a startup brand, as
 				well as producing social media products, and building a website based on WordPress and
@@ -83,7 +83,7 @@
 	<div class="grid grid-cols-1 gap-4 mt-6 gsapbox2">
 		<div>
 			<span class="font-mono text-sm font-semibold text-slate-500">2013-2021 </span>
-			<title class="block font-bold text-slate-800">Graphic Designer</title>
+			<title class="block font-bold text-slate-800">Graphic Designer - TPF Vietnam</title>
 			<p class="mt-2">
 				I have a significant tenure at TPF Vietnam, where I held various positions such as graphic
 				designer, high-end retoucher, 3D visualizer, and web designer. I also aided the business in
