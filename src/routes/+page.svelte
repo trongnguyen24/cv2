@@ -59,7 +59,7 @@
 <section class="text-slate-700">
 	<div class="flex flex-row gap-6">
 		<picture
-			class=" w-[6.5rem] rounded-3xl outline-2 outline outline-slate-700 rounded-br-none overflow-hidden gsapbox"
+			class=" w-[6.6rem] rounded-3xl border-2 border-slate-700 rounded-br-none overflow-hidden gsapbox"
 		>
 			<source width="400" height="400" srcset={avatar_avif} type="image/avif" />
 			<source width="400" height="400" srcset={avatar_webp} type="image/webp" />
