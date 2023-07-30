@@ -45,6 +45,14 @@
 <svelte:head>
 	<title>Nguyen Le's Resume</title>
 	<meta name="Nguyen Le's Resume" content="Nguyen Le's Resume" />
+	<meta property="og:title" content="Nguyen Le's Resume" />
+	<meta property="og:type" content="Resume" />
+	<meta property="og:image" content="/og-image.jpg" />
+	<meta property="og:url" content="https://nguyenlt.com" />
+	<meta
+		property="og:description"
+		content="I am a skilled UI/UX designer and FE developer based in Ho Chi Minh City"
+	/>
 </svelte:head>
 
 <section class="text-slate-700">

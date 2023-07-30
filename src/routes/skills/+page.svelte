@@ -352,7 +352,7 @@
 							</defs>
 						</svg>
 					</div>
-					TailwindCSS
+					Tailwind
 				</li>
 				<li class="flex items-center gap-2 gsapbox3">
 					<div
