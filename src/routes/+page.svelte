@@ -61,8 +61,9 @@
 		<picture
 			class=" w-[6.5rem] rounded-3xl outline-2 outline outline-slate-700 rounded-br-none overflow-hidden gsapbox"
 		>
-			<source srcset={avatar_webp} type="image/webp" />
-			<img src={avatar_jpg} alt="Welcome" />
+			<source width="400" height="400" srcset={avatar_avif} type="image/avif" />
+			<source width="400" height="400" srcset={avatar_webp} type="image/webp" />
+			<img width="400" height="400" src={avatar_jpg} alt="Nguyen Le" />
 		</picture>
 		<h2 class="font-bold text-3xl text-slate-800 font-serif gsapbox">
 			Hi!<br /> I'm <span class=" text-blue-500">Nguyen </span> <br />
