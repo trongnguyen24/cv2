@@ -4,7 +4,7 @@
 	viewBox="0 0 500 500"
 	width="100%"
 	id="blobSvg"
-	class="translate-x-1/4 opacity-100 xl:opacity-40 sm:blur-[12rem] blur-[7rem] scale-150 sm:scale-100"
+	class="translate-x-1/4 opacity-100 xl:opacity-40 sm:blur-[12rem] blur-[6rem] scale-150 sm:scale-100"
 >
 	<defs>
 		<linearGradient id="gradient" x1="0%" y1="50%" x2="0%" y2="100%">

@@ -5,7 +5,7 @@
 	width="100%"
 	id="blobSvg"
 	style="opacity: 1;"
-	class="-translate-y-1/2 translate-x-1/4 xl:-translate-y-1/3 xl:translate-x-1/4 scale-150 sm:scale-100 sm:blur-[7rem] blur-[3rem]"
+	class="-translate-y-1/2 translate-x-1/4 xl:-translate-y-1/3 xl:translate-x-1/4 scale-150 sm:scale-100 sm:blur-[7rem] blur-[2rem]"
 >
 	<defs>
 		<linearGradient id="gradient" x1="0%" y1="50%" x2="0%" y2="100%">
