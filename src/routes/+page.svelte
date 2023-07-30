@@ -8,8 +8,6 @@
 	import avatar_webp from '$lib/images/nl.webp';
 	import avatar_jpg from '$lib/images/nl.jpg';
 
-	console.log($page);
-
 	onMount(() => {
 		gsap.set('.gsapbox', { opacity: 0, scale: 0.93, y: 15 });
 		gsap.to('.gsapbox', {
@@ -50,8 +48,8 @@
 	<meta name="Nguyen Le's Resume" content="Nguyen Le's Resume" />
 	<meta property="og:title" content="Nguyen Le's Resume" />
 	<meta property="og:type" content="Resume" />
-	<meta property="og:image" content={$page.url.host + '/og-image.jpg'} />
-	<meta property="og:url" content={$page.url.host} />
+	<meta property="og:image" content={$page.url.origin + '/og-image.jpg'} />
+	<meta property="og:url" content={$page.url.origin} />
 	<meta
 		property="og:description"
 		content="I am a skilled UI/UX designer and FE developer based in Ho Chi Minh City"
