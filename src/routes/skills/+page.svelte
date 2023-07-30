@@ -3,7 +3,7 @@
 
 	import { gsap } from '$lib/gsap.js';
 	import { onMount } from 'svelte';
-
+	import { page } from '$app/stores';
 	onMount(() => {
 		gsap.set('.gsapbox3', { opacity: 0, scale: 0.93, y: 15 });
 		gsap.to('.gsapbox3', {
@@ -42,6 +42,14 @@
 <svelte:head>
 	<title>Nguyen Le's Resume - Skills</title>
 	<meta name="Nguyen Le's Resume - Skills" content="Nguyen Le's Resume - Skills" />
+	<meta property="og:title" content="Nguyen Le's Resume" />
+	<meta property="og:type" content="Resume" />
+	<meta property="og:image" content="{$page.url.host}/og-image.jpg" />
+	<meta property="og:url" content={$page.url.host} />
+	<meta
+		property="og:description"
+		content="I am a skilled UI/UX designer and FE developer based in Ho Chi Minh City"
+	/>
 </svelte:head>
 
 <section class="text-slate-600">
@@ -346,8 +354,8 @@
 									y2="18.6278"
 									gradientUnits="userSpaceOnUse"
 								>
-									<stop stop-color="#32B1C1" />
-									<stop offset="1" stop-color="#14C6B7" />
+									<stop stop-color="#38BDF8" />
+									<stop offset="1" stop-color="#38BDF8" />
 								</linearGradient>
 							</defs>
 						</svg>

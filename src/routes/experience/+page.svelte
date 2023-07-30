@@ -3,7 +3,7 @@
 
 	import { gsap } from '$lib/gsap.js';
 	import { onMount } from 'svelte';
-
+	import { page } from '$app/stores';
 	onMount(() => {
 		gsap.set('.gsapbox2', { opacity: 0, scale: 0.93, y: 15 });
 		gsap.to('.gsapbox2', {
@@ -44,6 +44,14 @@
 <svelte:head>
 	<title>Nguyen Le's Resume - Experience</title>
 	<meta name="Nguyen Le's Resume - Experience" content="Nguyen Le's Resume - Experience" />
+	<meta property="og:title" content="Nguyen Le's Resume" />
+	<meta property="og:type" content="Resume" />
+	<meta property="og:image" content="{$page.url.host}/og-image.jpg" />
+	<meta property="og:url" content={$page.url.host} />
+	<meta
+		property="og:description"
+		content="I am a skilled UI/UX designer and FE developer based in Ho Chi Minh City"
+	/>
 </svelte:head>
 
 <section class="text-slate-600">
