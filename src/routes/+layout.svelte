@@ -105,11 +105,12 @@
 </div>
 
 <style>
-	#noiseblob {
+	/* #noiseblob {
 		background-image: url('$lib/images/noise.png');
 		animation: noise-animaiton 2.5s steps(3, end) infinite;
 		opacity: 1;
 	}
+ */
 	@keyframes noise-animaiton {
 		0% {
 			background-position: 10px;
