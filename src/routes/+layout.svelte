@@ -99,18 +99,31 @@
 	</main>
 </div>
 <div class="fixed top-0 flex justify-between w-screen h-screen overflow-hidden">
-	<div id="noiseblob" class="absolute z-20 w-full h-full" />
+	<div id="noiseblob" class="absolute z-20 w-[120%] h-full" />
 	<Blob2 />
 	<Blob />
 </div>
 
 <style>
-	/* #noiseblob {
+	#noiseblob {
 		background-image: url('$lib/images/noise.png');
-		animation: noise-animaiton 2.5s steps(3, end) infinite;
+		animation: noise-animaiton 2.5s steps(3, end) infinite, safari-animaiton 2.5s infinite;
 		opacity: 1;
+		backdrop-filter: blur(10rem);
 	}
- */
+	@keyframes safari-animaiton {
+		0%,
+		50% {
+			transform: translate3d(0, 0, 0);
+			left: 0;
+		}
+
+		100% {
+			transform: translate3d(0, 0, 0);
+			left: 0.001%;
+		}
+	}
+
 	@keyframes noise-animaiton {
 		0% {
 			background-position: 10px;
