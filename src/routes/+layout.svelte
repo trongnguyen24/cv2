@@ -106,10 +106,11 @@
 
 <style>
 	#noiseblob {
-		background-image: url('$lib/images/noise.png');
-		animation: noise-animaiton 2.5s steps(3, end) infinite, safari-animaiton 2.5s infinite;
+		background-image: url('$lib/images/noise.webp');
+		background-size: 12.5%;
+		animation: noise-animaiton 2.5s steps(6, end) infinite, safari-animaiton 2.5s infinite;
 		opacity: 1;
-		backdrop-filter: blur(10rem);
+		backdrop-filter: blur(12rem);
 	}
 	@keyframes safari-animaiton {
 		0%,
@@ -126,22 +127,10 @@
 
 	@keyframes noise-animaiton {
 		0% {
-			background-position: 10px;
-		}
-		20% {
-			background-position: 50px;
-		}
-		40% {
-			background-position: 0px;
-		}
-		60% {
-			background-position: 150px;
-		}
-		80% {
-			background-position: 220px;
+			background-position: 10px 20px;
 		}
 		100% {
-			background-position: 110px;
+			background-position: 110px 40px;
 		}
 	}
 
