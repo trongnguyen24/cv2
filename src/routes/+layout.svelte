@@ -68,7 +68,7 @@
 
 	<main class="flex flex-col max-w-3xl gap-6 px-6 pt-0 pb-12 mx-auto sm:flex-row">
 		<div class=" w-full sm:w-40 shrink-0">
-			<ul class="grid flex-wrap grid-cols-2 sm:grid-cols-1 gap-2">
+			<ul class="grid sm:sticky sm:top-6 flex-wrap grid-cols-2 sm:grid-cols-1 gap-2">
 				{#each menu as menu}
 					<li
 						aria-current={$page.url.pathname === menu.link ? 'true' : undefined}
