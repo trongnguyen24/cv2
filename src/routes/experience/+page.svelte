@@ -68,6 +68,18 @@
 	</h2>
 	<div class="grid grid-cols-1 gap-4 mt-6 gsapbox2">
 		<div>
+			<span class="font-mono text-sm font-semibold text-slate-500">2023-2026 </span>
+			<title class="block font-bold text-slate-800">Software Development Specialist - Tam Anh Hospital</title>
+			<p class="mt-2">
+				Designed UI/UX for internal software systems including coordination platforms, medical
+				records management, and patient file systems. Built and implemented RAG Flow solutions
+				to support hospital workflows and enhance operational efficiency.
+			</p>
+		</div>
+	</div>
+
+	<div class="grid grid-cols-1 gap-4 mt-6 gsapbox2">
+		<div>
 			<span class="font-mono text-sm font-semibold text-slate-500">2022-2023 </span>
 			<title class="block font-bold text-slate-800">UI/UX Designer - TPF Vietnam</title>
 			<p class="mt-2">
